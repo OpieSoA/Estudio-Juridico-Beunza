@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     $message .= "Mensaje: " . $_POST['message'] . " \r\n";
     $message .= "Enviado el: " . date('d/m/Y', time());
 
-    $para = 'kevin.suasnabar97@gmail.com';
+    $para = 'escribeaquitucorreo@hotmail.com';
     $asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
 
     email($para, $asunto, utf8_decode($message), $header);
