@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    
+    <div class="content">
+
+        <h1 class="logo">Contactanos</h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contact us</h3>
+                <form method="post" action="enviar.php">
+                    <p>
+                        <label>Nombre y Apellido</label>
+                        <input type="text" name="fullname" required>
+                    </p>
+                    <p>
+                        <label>Correo Electronico</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Celular</label>
+                        <input type="tel" name="phone" required>
+                    </p>
+                    <p class="block">
+                        <label>Consulta</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit" name="contact" class="btn btn-primary">
+                            ENVIAR
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Cerrito 136, C1013 CABA</li>
+                    <li><i class="fas fa-phone"></i> 11-5221-1715</li>
+                    <li><i class="fas fa-envelope-open-text"></i> martinianob@yahoo.com.ar</li>
+                </ul>
+                <p>Su consulta no molesta!</p>
+                <p>BEUNZA y Asociados</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
