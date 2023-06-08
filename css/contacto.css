@@ -15,6 +15,31 @@ body {
     padding: 0 1.5em;
 }
 
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(255, 255, 255, .3);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: #428beb;
+}
+.btn:active{
+    background-color: #bc105c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 .container {
     max-width: 1170px;
     margin-left: auto;
