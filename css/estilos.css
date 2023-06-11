@@ -237,7 +237,7 @@ footer{
 @media screen and (max-width: 768px) {
     /* Styles for smaller screens here */
     .clientes-contenedor {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -245,7 +245,7 @@ footer{
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* Styles for medium-sized screens here */
     .clientes-contenedor {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -253,6 +253,6 @@ footer{
 @media screen and (min-width: 992px) {
     /* Styles for larger screens here */
     .clientes-contenedor {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
