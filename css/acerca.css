@@ -290,18 +290,19 @@ footer{
     color: #9e9797;
 }
 
-@media only screen and (max-width: 767px) {
-    /* Styles for phones here */
-    html {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
-}
+/* Default styles here */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* Styles for tablets here */
-    html {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-}
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Styles for smaller screens here */
+  }
+  
+  /* Responsive styles for screens between 768px and 992px */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for medium-sized screens here */
+  }
+  
+  /* Responsive styles for screens larger than 992px */
+  @media screen and (min-width: 992px) {
+    /* Styles for larger screens here */
+  }
