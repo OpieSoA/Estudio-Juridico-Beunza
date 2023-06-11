@@ -4,34 +4,31 @@
     box-sizing: border-box;
 }
 
-html {
-    width: min(100%,950px);
-}
-
 body {
     font-family: 'open sans';
+    font-size: 16px;
 }
 
 .contenedor {
-    padding: 60px 0;
+    padding: 3.75em 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 62.5em;
     margin: auto;
     overflow: hidden;
 }
 
 .titulo {
     color: #2a3173;
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 3.75em;
 }
 
 /* Header */
 
 header {
     width: 100%;
-    height: 600px;
+    height: 37.5em;
     background: #b4abb2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsl(312, 6%, 69%), hsl(313, 6%, 69%)), url(../img/portada.jpg);
@@ -45,14 +42,14 @@ header {
 
 nav{
     text-align: right;
-    padding: 30px 50px 0 0;
+    padding: 1.875em 3.125em 0 0;
 }
 
 nav > a{
     color:#fff;
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0.625em;
 }
 
 nav > a:hover{
@@ -61,7 +58,7 @@ nav > a:hover{
 
 header .textos-header{
     display: flex;
-    height: 430px;
+    height: 26.875em;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -70,12 +67,12 @@ header .textos-header{
 }
 
 .textos-header h1{
-    font-size: 50px;
+    font-size: 3.125em;
     color:#fff;
 }
 
 .textos-header h2{
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 300;
     color:#fff;
 }
@@ -89,7 +86,7 @@ header .textos-header{
 /* About us */
 
 main .sobre-nosotros{
-    padding: 30px 0 60px 0;
+    padding: 1.875em 0 3.75em 0;
 }
 .contenedor-sobre-nosotros{
     display: flex;
@@ -105,7 +102,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
 }
 
 .contenido-textos h3 span{
@@ -114,22 +111,22 @@ main .sobre-nosotros{
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
     padding: 2px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
+    padding: 0px 0px 1.875em 0.9375em;
     font-weight: 300;
     text-align: justify;
 }
 
 main .nuestras-caracteristicas{
     background: #f2f2f2;
-    padding: 30px 0 60px 0;
+    padding: 1.875em 0 3.75em 0;
 }
 .contenedor-nuestras-caracteristicas{
     display: flex;
@@ -145,7 +142,7 @@ main .nuestras-caracteristicas{
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
     margin-top: 40px;
 }
 
