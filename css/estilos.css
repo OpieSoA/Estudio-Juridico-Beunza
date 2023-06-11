@@ -165,23 +165,6 @@ main .nuestras-caracteristicas{
     text-align: justify;
 }
 
-
-
-/* Galeria */
-
-
-.ubicacion{
-    background: #f2f2f2;
-    position: relative;
-}
-
-.ubicacion iframe {
-    /* margin: 20px 0 20px 0; */
-    padding-left: 400px;
-    width: 1000px;
-    height: 500px;
-}
-
 /* Clients */
 
 .cards{
@@ -219,38 +202,6 @@ main .nuestras-caracteristicas{
     padding-top: 5px;
 }
 
-/*  Our team */
-
-.about-services{
-    background: #f2f2f2;
-    padding-bottom: 30px;
-}
-
-
-.servicio-cont{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.servicio-ind{
-    width: 28%;
-    text-align: center;
-}
-
-.servicio-ind img{
-    width: 90%;
-}
-
-.servicio-ind h3{
-    margin: 10px 0;
-}
-
-.servicio-ind p{
-    font-weight: 300;
-    text-align: justify;
-}
-
 /* footer */
 
 footer{
@@ -280,33 +231,19 @@ footer{
     color: #9e9797;
 }
 
-/* 
-Styles for larger screens (desktops, laptops, etc.)
---------------------------------------------------
-Place your desktop styles here.
-*/
+/* Default styles here */
 
-@media only screen and (max-width: 1024px) {
-    /* Styles for tablets */
-    /* ... */
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Styles for smaller screens here */
 }
 
-@media only screen and (max-width: 768px) {
-    /* Styles for mobile devices */
-    /* Set the containing div to be responsive */
-    .map-responsive {
-        width: 100%;
-        height: 0;
-        position: relative;
-        padding-bottom: calc(100% / (16/9));  /* 16/9 is the aspect ratio of the map */
-    }
+/* Responsive styles for screens between 768px and 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for medium-sized screens here */
+}
 
-    /* Style the embedded map */
-    .google-map {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+/* Responsive styles for screens larger than 992px */
+@media screen and (min-width: 992px) {
+    /* Styles for larger screens here */
 }
