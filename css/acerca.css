@@ -306,3 +306,9 @@ footer{
 @media screen and (min-width: 992px) {
     /* Styles for larger screens here */
 }
+
+@media only screen and (max-width: 600px) {
+    .contenedor-titulos img{
+        max-width: 100%;
+    }
+}
