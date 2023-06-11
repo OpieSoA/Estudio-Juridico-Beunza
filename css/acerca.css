@@ -261,6 +261,32 @@ main .otros{
     height: 30px;
 }
 
+.cool-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(255, 255, 255, .3);
+}
+
+.cool-btn a{
+    text-decoration: none;
+    color: white;
+}
+.cool-btn:hover{
+    background-color: #428beb;
+}
+.cool-btn:active{
+    background-color: #272727;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 /* footer */
 
 footer{
